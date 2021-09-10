@@ -1,0 +1,25 @@
+RECETA PARA HACER UN CHANWICH
+
+INICIO
+    SACAR el pan
+    PONER la mayonesa
+    PONER jamón
+    PONER rajas de jalapeño
+    SI hay queso ENTONCES
+        SACAR el queso
+        REBANAR el queso
+        PONER el queso en el CHANWICH
+    SINO hay queso ENTONCES
+        PONLE mas jamón
+    SACAR tomate
+    LAVAR el tomate
+    REBANAR el tomate
+    PONER el tomate en el CHANWICH
+    SERVIR CHANWICH
+    COMER
+FIN
+
+
+INICIO
+    IMPRIMIR "Hola mundo"
+FIN
