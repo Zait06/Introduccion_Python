@@ -13,3 +13,7 @@ def funcion(a,b):
 def funcion(a,b):
     # código
     return
+
+def funcion(a,b):
+    # código
+    funcion(a-1,b-1)
