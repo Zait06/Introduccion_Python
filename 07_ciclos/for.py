@@ -7,3 +7,15 @@ for alumno in alumnos:
         print("Puedes hacerlo mejor")
     else:
         print("Ja... que wey")
+
+####################################################
+
+suma = 0
+
+# range(a) -> [0,..., a-1]
+# range(a,b) -> [a,...., b-1]
+
+for i in range(101):
+    suma += i
+
+print(suma)
