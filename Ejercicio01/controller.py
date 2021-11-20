@@ -20,7 +20,7 @@ def deleteLast():
 
 def deleteFirst():
     # data.pop(0)
-    deleteNotif(0)
+    deleteNotif(1)
 
 # Tamanio de los datos
 def numNotif():
