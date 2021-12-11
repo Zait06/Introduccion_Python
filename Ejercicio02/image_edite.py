@@ -8,3 +8,42 @@ def get_chanels(img_arr):
 
 def negative(img_arr):
     return 255 - img_arr
+
+def sumImgs(matA, matB):
+    rA, cA, _ = matA.shape
+    rB, cB, _ = matB.shape
+
+    rows = 0    # Filas padre
+    cols = 0    # Columnas padre
+
+    if rA > rB:
+        rows = rB
+    else:
+        rows = rA
+
+    if cA > cB:
+        cols = cB
+    else:
+        cols = cA
+
+    # Finicio:Ffin , Cinicio:Cfin
+    return matA[0:rows, 0:cols] + matB[:rows, :cols]
+
+def operadorAnd(matA, matB):
+    rA, cA, _ = matA.shape
+    rB, cB, _ = matB.shape
+
+    rows = 0    # Filas padre
+    cols = 0    # Columnas padre
+
+    if rA > rB:
+        rows = rB
+    else:
+        rows = rA
+
+    if cA > cB:
+        cols = cB
+    else:
+        cols = cA
+
+    return np.bitwise_and(matA[0:rows, 0:cols], matB[:rows, :cols])
